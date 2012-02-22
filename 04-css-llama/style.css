@@ -1,5 +1,3 @@
-
-
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -31,7 +29,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body {margin:0 auto;
+     width:960px;
 	line-height: 1;
 }
 ol, ul {
@@ -73,9 +72,19 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-/* logo replacement */
 
-header#site-header h1 { position:absolute; left:10px; top:10px; }
-header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
+body {margin:0 auto;
+     width:960px;
+	background-color:green;}
 
+article {float:left;
+	width:40%;
+	margin:0px 20px}
+
+article img {width:40%;
+    float:left;
+    margin-bottom:20px;
+    margin-right:20px;}
+
+section#main-content {margin-top:50px;}
 
