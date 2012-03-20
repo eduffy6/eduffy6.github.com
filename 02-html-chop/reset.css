@@ -79,9 +79,6 @@ body {margin:0 auto;
 header {
 	position:relative;
 	height:230px;
-	border-top:3px; solid:black;
-	border-bottom:3px; solid:black;
-	
 }
 
 header img {
@@ -97,14 +94,20 @@ nav {
 	left:170px;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:18px;
-	text-decoration:none;
-color:black;
+	border-top:3px; solid:black;
+	border-bottom:3px; solid:black;}
 	
-}
+#top-menu li a {
+	font:bold;
+	text-decoration:none;
+	color:black;}
 
 li {
 	float:left;
 	margin:30px;
+	text-decoration:none;
+	color:black;
+	list-style:discs;
 }
 
 section {
@@ -113,7 +116,7 @@ section {
 }
 
 section img {
-	width:50%;
+	width:70%;
 }
 
 h1 { font-family:Georgia, "Times New Roman", Times, serif;
@@ -121,6 +124,7 @@ font-size:18px;
 padding:10px 0px;}
 
 p { font:Verdana, Geneva, sans-serif;
+	width:90%;
 }
 
 footer {

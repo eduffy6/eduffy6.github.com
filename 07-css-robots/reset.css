@@ -60,30 +60,77 @@ body {margin:0 auto;
 #site-header {
 	position:relative;
 	height:150px;
-	background-color:#99CC66;
+	background-color:#F4F4F4;
 }
 
 #site-header h1 a{display: block;
 	width:300px;
 	height:125px;
+	padding-left:200px;
 }
 
-#top-nav a{text-decoration:none;
-	color:744918;
+#top-nav a{float:right;
+	text-decoration:none;
+	color:#744918;
 }
 
 li a{float:left;
-	margin:20px;
 	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;}
 
 #main-menu li a{float:left;
 	margin:20px;
-	text-decoration:none;}
+	text-decoration:none;
+	background-color:#744918;
+	color:#FFFFFF;}
+	
+#site-wrapper{}
 
-#page h1 { font-family:Georgia, "Times New Roman", Times, serif;
-font-size:30px;
-padding:10px 0px;}
+#content {width:600px;
+	margin-bottom:40px;}
 
-#page h2{
+#page h1 { font-family:helvetica;
+	font-size:30px;
+	padding:10px 0px;
+	margin-left:200px;
+	color:#744918;}
 
+#page h2{ font-family:helvetica;
+	font-size:18px;
+	margin-left:200px;
+	color:#744918;}
 
+#page p{ font-family:helvetica;
+	font-size:10px;
+	color:#666666;
+	width:50%;
+	margin:10px 0px 10px 200px;}
+	
+#sidebar{ float:right;
+	width:40%;}
+	
+#sidebar h1{ font-family:helvetica;
+	font-size:14px;
+	margin-left:30px;
+	color:#744918;}
+	
+#sidebar p{font-family:helvetica;
+	font-size:10px;
+	color:#744918;
+	margin:10px 0px 10px 30px;}
+	
+#site-footer {height:100px;
+	font-family:helvetica;
+	font-size:10px;
+	color:#FFF;
+	background-color:#744918;}
+	
+#footer-contact h1{ width:300px;
+	padding:20px 0px 5px 200px;
+	font-size:12px;}
+
+#footer-contact p{ padding-left:200px;
+	font-size:10px;}
+	
+#footer-follow {float:right;}
+	
